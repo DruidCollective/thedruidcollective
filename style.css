@@ -1,3 +1,5 @@
+
+/* general css */
 body {
     max-width: 55em;
     margin: 0 auto;
@@ -35,7 +37,9 @@ a {
 	
 }
 
-.join a {
+
+/* stying of the about a tag */
+.about a {
 	margin: 4em;
 	background-color: white;
 	color: black;
@@ -44,12 +48,14 @@ a {
 
 }
 
-.join a:hover {
+.about a:hover {
 	background-color: black;
 	color: white;
 
 }
 
+
+/* this is for the navbar */
 
 ul {
   list-style-type: none;

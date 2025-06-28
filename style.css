@@ -23,10 +23,53 @@ p {
 a {
 	text-decoration: none;
 	padding: 0.7em;
+	background-color: white;
+	color: black;
+	border-radius: 2em;
+	border: 0.1em solid white;
 
 }
 
+a:hover {
+	background-color: black;
+	color: white;
+}
 
+
+
+/* this is for the navbar */
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background: black;
+	display: inline-block;
+
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	background-color: black;
+	border-radius: 0em;
+	border: 0em;
+}
+
+li a:hover {
+	background-color: white;
+	color: black;
+}
+
+
+/* these are classes */
 .logo {
 	margin: 1em;
 }
@@ -38,48 +81,4 @@ a {
 }
 
 
-/* stying of the about a tag */
-.about a {
-	margin: 4em;
-	background-color: white;
-	color: black;
-	border-radius: 2em;
-	border: 0.1em solid white;
 
-}
-
-.about a:hover {
-	background-color: black;
-	color: white;
-
-}
-
-
-/* this is for the navbar */
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background: black;
-  display: inline-block;
-
-}
-
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  background-color: black;
-}
-
-li a:hover {
-  background-color: white;
-  color: black;
-}

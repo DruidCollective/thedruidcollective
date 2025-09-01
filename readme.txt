@@ -15,3 +15,6 @@ use like an IDE or some shit.
 you can ask me what things mean if you don't not html or css, I'm not hard to find usually.
 
 to learn basic web shit use https://www.w3schools.com or like get a book on html css
+
+
+test12312
